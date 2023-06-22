@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Modelado y herramientas de diseño',
+    descripcionCurso:
+      'Dentro de los aspectos contemplados en el desarrollo de productos electrónicos se encuentra el modelamiento mecánico, el cual permite materializar el concepto del producto inicial, para darle un acabo físico y estético que sea funcional y a la vez visualmente atractivo. Por tal razón se requiere de una elevada precisión y una notable optimización del tiempo y los recursos invertidos en el proceso.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -31,27 +22,31 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Modelado de prototipos de productos electrónicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Dibujo técnico e instrumentos de modelado',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Métodos de interpretación de planos',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas de diseño mecánico',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión documental',
         desarrolloContenidos: true,
       },
     ],
