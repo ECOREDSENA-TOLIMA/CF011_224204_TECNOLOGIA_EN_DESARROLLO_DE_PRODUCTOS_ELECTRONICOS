@@ -17,3 +17,71 @@
 
   100%
     transform: translateY(0px)
+
+.tabla-a thead 
+  background-color: #800070
+  color: #FFFF
+
+// Cajon Texto -------------------------------
+
+.bloque-texto-a.color-acento-botones:before
+  background-color: #E8E8E8
+
+// Citas
+.bloque-texto-d
+  border-top: 1px solid $color-primario !important
+.bloque-texto-d.color-acento-botones:before
+  background-color: #FFD94726 
+.bloque-texto-d i
+  color: $color-primario
+
+.bloque-texto-d
+  border-top: 1px solid $color-acento-contenido
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 45%
+    bottom: 0
+    left: 35%
+    right: 0
+  &__texto
+    position: relative
+    *
+      display: inline
+  i
+    font-size: 1.7em
+    color: $color-primario
+    &:first-of-type
+      margin-right: 15px
+    &:last-of-type
+      margin-left: 15px
+      vertical-align: text-bottom
+  &__autor
+    text-align: right
+    position: relative
+  &.color-primario
+    &:before
+      background-color: $color-primario
+  &.color-secundario
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    &:before
+      background-color: $color-acento-contenido
+
+.borde-secundario-izq
+  border-left: solid 5px $color-acento-contenido
+
+// Cajon Texto ------------------------------
+.bloque-texto-a.color-acento-botones-invertido::before
+  background-color: $color-secundario
+.bloque-texto-a.color-acento-botones
+  background-color: $color-secundario
+.bloque-texto-a.color-acento-contenido-invertido
+  background-color: $color-acento-contenido
+.bloque-texto-a.color-primario-invertido::before 
+  background-color: #E8E8E8
+.cajon.color-acento-botones
+  background-color: #FFD947
