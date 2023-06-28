@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.tema2
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
@@ -81,42 +81,49 @@
         p.titulo.pb-0.mb-0 <b>Figura 18.</b> <i>Software CAD, software CAM</i>
 
     
-    .row.justify-content-center.bg-color1.p-lg-5.p-1.mb-2
-      .col-lg-8.col-12
-        ImagenInfograficaB.color-secundario
-
+    .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.pt-5
+      .col-md-10.col-lg-8.col-12(data-aos="fade-down")
+        ImagenInfografica.color-acento-contenido
           template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/temas/tema2/7.svg')
+            figure
+              img(src='@/assets/curso/temas/tema2/7.svg', alt='')
 
-          .tarjeta.color-acento-contenido.p-3(x="23.8%" y="29%")
-            strong Solidworks
-            p.mt-3 Es uno de los mejores modeladores de sólidos 3D de gama media, pues permite modelar piezas y ensamblajes en 3D y planos en 2D. El software ofrece un abanico de soluciones para cubrir los aspectos implicados en el proceso de desarrollo del producto. Sus productos ofrecen la posibilidad de crear, diseñar, simular, fabricar, publicar y gestionar los datos del proceso de diseño.
+          .tarjeta.color-custom--borde-1.p-3(x="77.2%" y="69%")
+            .h5.mb-2 TopSolid'CAM
+            p Una solución de CAD/CAM sencilla, intuitiva y evolutiva, sencillez de uso del control de un torno, fresadora o de un centro de mecanizado de 5 ejes continuos, simulación fiable y fiel para una producción segura, verdadera interoperabilidad, sea cual sea el sistema de CAD utilizado, además de gestión de las tolerancias gracias a la herramienta FreeShape y bibliotecas ricas en herramientas cortantes y de condiciones de cortes.
 
-          .tarjeta.color-acento-contenido.p-3(x="85%" y="8%")
-            p No se deben llevar objetos de metal mientras se trabaja con electricidad: cadenas, relojes o anillos pueden ocasionar un cortocircuito o producir un arco eléctrico. El metal es un excelente conductor de la electricidad, por lo que, en caso de contacto, se produce una descarga muy peligrosa. Es necesario utilizar 
-              strong ropa ajustada 
-              | para evitar contactos y caídas.
+          .tarjeta.color-custom--borde-2.p-3(x="82.2%" y="50.5%")
+            .h5.mb-2 Climatron
+            p Es un programa para diseño y manufactura CAD/CAM integrado. La aplicación es utilizada para realizar proyectos de maquinado de piezas y herramientas usando operaciones torno, fresa, manufactura discreta, microfresado y electrodos en centros de maquinado.
 
-          .tarjeta.color-acento-contenido.p-3(x="18.7%" y="47.6%")
-            strong Solid edge
-            p.mt-3 Junto con SolidWorks es uno de los softwares de diseño 3D más competitivos. Esta solución pertenece actualmente a la empresa Siemens, sin embargo, la idea fue presentada por primera vez en 1996 gracias a Intergraph. Hoy en día es conocido por ser uno de los software más utilizado por expertos en la industria de fabricación aditiva.
+          .tarjeta.color-custom--borde-1.p-3(x="78.5%" y="31.5%")
+            .h5.mb-2 SurfCAM
+            p Es una solución de software CAM para programar piezas por control numérico manufacturadas en centros de maquinado de 2 a 5 ejes, torno y EDMs. Con su tecnología patentada “Truemill”, maquinado de alta velocidad para 2 y 3 ejes, puede reducir el tiempo del ciclo de maquinado hasta en 80%, lo que quiere decir que un programa de 10 minutos puede bajar a tan solo 2 minutos.
 
-          .tarjeta.color-acento-contenido.p-3(x="22.4%" y="66.5%")
-            strong AutoCAD
-            p.mt-3 Es un software de diseño asistido por computadora (CAD) de la compañía AutoDesk en el cual se apoyan tanto arquitectos como ingenieros y profesionales de la construcción para crear dibujos precisos en 2D y 3D. Crea, anota y edita geometría en 2D y modelos en 3D con sólidos, superficies y objetos de malla. Automatiza tareas como, por ejemplo, comparar dibujos, realizar un recuento, añadir bloques, crear tablas de planificación, entre otros.
+          .tarjeta.color-custom--borde-2.p-3(x="67%" y="19%")
+            .h5.mb-2 MasterCAM
+            p Mastercam es un producto de CNC Software INC. Que proporciona soluciones de mecanizado para cualquier tipo de necesidad. Es el programa CAD/CAM más popular para manufactura en máquinas de control numérico y centros de maquinado CNC.
+            | El programa abarca la programación de fresadoras, centros de maquinado, tornos, el módulo Blade expert para alabes, electroerosionadoras de corte por alambre, cortadoras por láser, oxicorte, routers y más.
 
-          .tarjeta.color-acento-contenido.p-3(x="36%" y="18%")
-            strong Catia
-            p.mt-3 Software de diseño 3D de sólidos y superficies con una gran implementación en sectores importantes de la industria automotriz, aeronáutica, aeroespacial, entre otros.
+          .tarjeta.color-custom--borde-1.p-3(x="33.8%" y="79%")
+            .h5.mb-2 Rhinoceros
+            p Basado en la geometría de NURBS, este software es normalmente utilizado para la arquitectura, el prototipado, la ingeniería y el diseño industrial, gráfico, naval y automotriz, entre otros. Su última versión, Rhino 6, surgió para eliminar los obstáculos que pudieran surgir a la hora de trabajar con el programa, además de incluir mejoras. Gracias a los miles de usuarios, el software se ha podido perfeccionar, y, por ello, ahora es la versión más estable y rápida que han creado.
 
-          .tarjeta.color-acento-contenido.p-3(x="33.8%" y="79%")
-            strong Rhinoceros
-            p.mt-3 Basado en la geometría de NURBS, este software es normalmente utilizado para la arquitectura, el prototipado, la ingeniería y el diseño industrial, gráfico, naval y automotriz, entre otros. Su última versión, Rhino 6, surgió para eliminar los obstáculos que pudieran surgir a la hora de trabajar con el programa, además de incluir mejoras. Gracias a los miles de usuarios, el software se ha podido perfeccionar, y, por ello, ahora es la versión más estable y rápida que han creado.
+          .tarjeta.color-custom--borde-2.p-3(x="22.4%" y="66.6%")
+            .h5.mb-2 AutoCAD
+            p Es un software de diseño asistido por computadora (CAD) de la compañía AutoDesk en el cual se apoyan tanto arquitectos como ingenieros y profesionales de la construcción para crear dibujos precisos en 2D y 3D. Crea, anota y edita geometría en 2D y modelos en 3D con sólidos, superficies y objetos de malla. Automatiza tareas como, por ejemplo, comparar dibujos, realizar un recuento, añadir bloques, crear tablas de planificación, entre otros.
 
+          .tarjeta.color-custom--borde-1.p-3(x="18.5%" y="47.5%")
+            .h5.mb-2 Solid edge
+            p Junto con SolidWorks es uno de los softwares de diseño 3D más competitivos. Esta solución pertenece actualmente a la empresa Siemens, sin embargo, la idea fue presentada por primera vez en 1996 gracias a Intergraph. Hoy en día es conocido por ser uno de los software más utilizado por expertos en la industria de fabricación aditiva.
 
-
-
+          .tarjeta.color-custom--borde-2.p-3(x="23.7%" y="29%")
+            .h5.mb-2 Solidworks
+            p Es uno de los mejores modeladores de sólidos 3D de gama media, pues permite modelar piezas y ensamblajes en 3D y planos en 2D. El software ofrece un abanico de soluciones para cubrir los aspectos implicados en el proceso de desarrollo del producto. Sus productos ofrecen la posibilidad de crear, diseñar, simular, fabricar, publicar y gestionar los datos del proceso de diseño.
+            
+          .tarjeta.color-custom--borde-1.p-3(x="35.8%" y="18.2%")
+            .h5.mb-2 Catia
+            p Software de diseño 3D de sólidos y superficies con una gran implementación en sectores importantes de la industria automotriz, aeronáutica, aeroespacial, entre otros.
 
     .tarjeta.text-white.p-3.mt-5.caja_flotante_azul.col-md-9.m-auto(data-aos="fade-up" style="background: linear-gradient(rgb(60 0 97), rgb(179 0 157))")
       .row.justify-content-around.align-items-center
@@ -128,7 +135,7 @@
               .h2.mb-0 Curso de AutoCAD
               p.mt-3 Para profundizar en el tema e iniciar en uno de los <em>software</em> más utilizados, se sugiere ver el siguiente video.
             .col-sm-auto
-              a.boton.boton--b.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--b.color-acento-botones(:href="'https://www.youtube.com/watch?v=71vdtOJN4Sw'" target="_blank")
                 span(style="color: #12263F !important;") Ver video
 
 
