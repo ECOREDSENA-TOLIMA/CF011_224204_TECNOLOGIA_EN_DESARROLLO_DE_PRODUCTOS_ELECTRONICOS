@@ -8,7 +8,7 @@
       h1 Gestión documental
 
     p.mt-3(data-aos="fade-left") En el diseño mecánico, al igual que en todo proceso, se generan documentos que forman parte de la gestión del proyecto y que se deben presentar de forma clara y organizada evitando posibles errores de interpretación. La mayoría de la documentación presentada en el dibujo mecánico está asociada con los artes de la pieza, y lo complejo que pueda llegar a ser dependerá estrictamente del objeto realizado.
-    p Por tal razón, la masificación en el uso de herramientas de software asistido por computador ha permitido que desde el mismo programa se pueda realizar la gestión de dicha documentación teniendo controles de versiones y cambios realizados a un proyecto en curso.
+    p Por tal razón, la masificación en el uso de herramientas de <em>software</em> asistido por computador ha permitido que desde el mismo programa se pueda realizar la gestión de dicha documentación teniendo controles de versiones y cambios realizados a un proyecto en curso.
     p Dentro de la gestión documental están los informes y en ellos se encuentran los siguientes documentos.
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5

@@ -10,7 +10,7 @@
 
     .row
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Plano sistema de coordenadas Cartesiano tridimensional de la Geometría del espacio</i>
+        p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Plano sistema de coordenadas cartesiano tridimensional de la geometría del espacio</i>
         
     .row
       .col.lg-12.col-lg-12.mt-3
@@ -19,7 +19,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/1.svg')})`}"
           )
           .bloque-texto-g__texto.p-4.mt-3
-            p.mb-0(data-aos="fade-left") El modelamiento de estas partes mecánicas es la aplicación del dibujo técnico para la representación matemática de un objeto hecho a mano o con herramientas de software especializado en tres dimensiones: X, Y, Z (largo, ancho,  alto).
+            p.mb-0(data-aos="fade-left") El modelamiento de estas partes mecánicas es la aplicación del dibujo técnico para la representación matemática de un objeto hecho a mano o con herramientas de <em>software</em> especializado en tres dimensiones: X, Y, Z (largo, ancho,  alto).
     br
     figcaption Nota. Tomado de freepng.es
 
@@ -51,7 +51,7 @@
     
     figure
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/ixBuFHSPcUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/watch?v=e_zOsXe2UCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mt-3(data-aos="fade-left") Los instrumentos empleados para dibujo técnico se clasifican en tres grupos importantes: de trazado, de medida y anexos o complementarios. 
     
@@ -69,7 +69,7 @@
           p •  Los lápices HB son de dureza media, lo que hace que su trazo sea suave y, por lo general, se utilizan dentro del dibujo para marcar acotaciones y datos.
           p •  Los lápices H son de punta más dura y, por lo tanto, su trazo es mucho más suave que los HB dejando un trazo menos visible en función de lo que se quiera representar dentro del dibujo que, casi siempre, son trazos iniciales de diseño; este tipo de lápices se encuentran desde la H, 2H y hasta el 6H siendo este último el más duro y de trazo más sutil.
           p •  Los lápices tipo B, de punta más suave y de trazado más marcado, se utilizan para definir detalles finales en el dibujo; los hay desde el B, 2B y hasta el 8B siendo el 8B el que tiene el trazo más oscuro.
-          p En la figura 2 se puede observar la relación de trazado del lápiz de acuerdo con su rotulado (Biguri, 2016).
+          p En la figura 3 se puede observar la relación de trazado del lápiz de acuerdo con su rotulado (Biguri, 2016).
       
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Instrumentos de trazado (escuadras)")
         .col-md-5.justify-content-center.align-items-center
@@ -79,7 +79,7 @@
             figure
              img(src='@/assets/curso/temas/tema1/5.svg', alt='Texto que describa la imagen')        
         .col-md-6.offset-lg-1.mb-4.mb-md-0
-          p Dentro de los instrumentos de trazado se destacan el juego de escuadras que incluye el cartabón los cuales se emplean para trazar líneas rectas a lo largo de los diferentes planos y vistas del dibujo; además del compás que permite la creación de figuras y trazos con geometría curva. En la figura 3 se observa el juego de escuadras empleado en dibujo (Biguri, 2016).
+          p Dentro de los instrumentos de trazado se destacan el juego de escuadras que incluye el cartabón los cuales se emplean para trazar líneas rectas a lo largo de los diferentes planos y vistas del dibujo; además del compás que permite la creación de figuras y trazos con geometría curva. En la figura 4 se observa el juego de escuadras empleado en dibujo (Biguri, 2016).
 
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Instrumentos de medida ")
         .col-md-5.justify-content-center.align-items-center
@@ -89,7 +89,7 @@
             figure
              img(src='@/assets/curso/temas/tema1/6.svg', alt='Texto que describa la imagen')        
         .col-md-6.offset-lg-1.mb-4.mb-md-0
-          p Por otra parte, dentro de los instrumentos de medida se destacan las diferentes reglas milimetradas, los escalímetros para medición y elaboración de escalas y el transportador de ángulos (figura 4).
+          p Por otra parte, dentro de los instrumentos de medida se destacan las diferentes reglas milimetradas, los escalímetros para medición y elaboración de escalas y el transportador de ángulos (figura 5).
 
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Instrumentos anexos o complementarios")
         .col-md-5.justify-content-center.align-items-center
@@ -99,7 +99,7 @@
             figure
              img(src='@/assets/curso/temas/tema1/7.svg', alt='Texto que describa la imagen')        
         .col-md-6.offset-lg-1.mb-4.mb-md-0
-          p Se utilizan para facilitar el proceso de diseño del dibujo y brindar mejores acabados; se destacan portaminas, borradores, tajalápices, curvígrafos o plantillas Burmester (figura 5).
+          p Se utilizan para facilitar el proceso de diseño del dibujo y brindar mejores acabados; se destacan portaminas, borradores, tajalápices, curvígrafos o plantillas Burmester (figura 6).
     
     ul.lista-ul.mb-3
       li 
@@ -121,7 +121,7 @@
     p.mt-3(data-aos="fade-left") La acotación es el trabajo más complejo del dibujo técnico, ya que para un correcto uso es necesario conocer, no solo sus normas, sino también las características del plano o dibujo a acotar. No se puede proceder de cualquier manera, por ello, la información que se representa en el acotado debe disponerse de tal modo que su lectura sea fácil y rápida.
     p.mt-3(data-aos="fade-left") Para realizar un adecuado proceso de acotación es importante tener claros los principios que la rigen, tal como se expone en la siguiente figura.
 
-    .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1
+    .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1.mt-5
       p.titulo.pb-0.mb-0 <b>Figura 7.</b> <i>Principios de acotación</i>
     .col.justify-content-center.align-items-center.mt-5
       figure
@@ -141,7 +141,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/10.svg')})`}"
         )
         .bloque-texto-g__texto.p-4.mt-3.justify-content-center.align-items-center
-          p.mt-3 Es importante aclarar que cuando el diseño mecánico se realiza a través de un software asistido de computador no se emplea una hoja física, pero sí una plantilla que representará digitalmente el formato empleado de plantilla para una eventual impresión.
+          p.mt-3 Es importante aclarar que cuando el diseño mecánico se realiza a través de un <em>software</em> asistido de computador no se emplea una hoja física, pero sí una plantilla que representará digitalmente el formato empleado de plantilla para una eventual impresión.
     
     .row.justify-content-center.align-items-center.mb-3.mt-3
       .col-sm-12.col-lg-12.mb-4.mb-md-0(data-aos="fade-up")
@@ -151,9 +151,9 @@
               figure
                 img(src='@/assets/curso/temas/tema1/11.svg', alt='')
             .col-sm-12.col-lg-10
-              p.px-3.pt-1.pb-2(data-aos="fade-up") Por tal razón, la normalización de los formatos empleados en los tamaños de las hojas de dibujo se aplica de igual manera en el software de diseño mecánico de su preferencia.
+              p.px-3.pt-1.pb-2(data-aos="fade-up") Por tal razón, la normalización de los formatos empleados en los tamaños de las hojas de dibujo se aplica de igual manera en el <em>software</em> de diseño mecánico de su preferencia.
              
-    p.mt-3(data-aos="fade-left") La serie A es uno de los formatos más extendidos en el tamaño del papel y en las plantillas de diseño e impresión utilizadas en la mayoría de software CAD. Este estándar de formato inicia en el A0 y va hasta el A8, cada formato de mayor orden representa la mitad del tamaño del formato inmediatamente anterior; es decir, el formato A8 es la mitad del tamaño del formato A7. En la siguiente tabla se puede observar las dimensiones en milímetros de cada formato y en la figura se puede observar la relación en tamaño de cada uno.
+    p.mt-3(data-aos="fade-left") La serie A es uno de los formatos más extendidos en el tamaño del papel y en las plantillas de diseño e impresión utilizadas en la mayoría de <em>software</em> CAD. Este estándar de formato inicia en el A0 y va hasta el A8, cada formato de mayor orden representa la mitad del tamaño del formato inmediatamente anterior; es decir, el formato A8 es la mitad del tamaño del formato A7. En la siguiente tabla se puede observar las dimensiones en milímetros de cada formato y en la figura se puede observar la relación en tamaño de cada uno.
 
     .titulo-sexto.color-acento-contenido.mb-3.offset-lg-1
         p.titulo.pb-0.mb-0 <b>Tabla 1.</b> <i>Dimensiones en milímetros de los diferentes formatos de la serie A</i>
@@ -235,7 +235,7 @@
           
         .col-md-6.offset-lg-1
           p La regla milimetrada se emplea para efectuar mediciones de longitud. Se caracteriza por estar fabricada en plástico, metal o madera o materiales generalmente rígidos, es alargada y su tamaño varía en función de las necesidades de medición.
-          p Por una de las caras de la regla se tiene un patrón de rayas largas numeradas consecutivamente (0, 1, 2, 3, 4 …) que representan los centímetros, mientras que los milímetros se representan con un patrón de rayas cortas ubicadas en cantidades de 10 entre las rayas más largas o los centímetros (figura 8).
+          p Por una de las caras de la regla se tiene un patrón de rayas largas numeradas consecutivamente (0, 1, 2, 3, 4 …) que representan los centímetros, mientras que los milímetros se representan con un patrón de rayas cortas ubicadas en cantidades de 10 entre las rayas más largas o los centímetros (figura 12).
 
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Escalímetro")
         .col-md-5.justify-content-center.align-items-center

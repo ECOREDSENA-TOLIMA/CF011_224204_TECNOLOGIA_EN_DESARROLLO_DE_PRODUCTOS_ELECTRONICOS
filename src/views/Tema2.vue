@@ -13,37 +13,11 @@
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
         p.titulo.pb-0.mb-0 <b>Figura 15.</b> <i>Proceso de lectura de planos</i>
 
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      .row
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-primario.p-5
-            .tarjeta-numerada__numero
-              .h2 1
-            p.text-center Identificar todas las vistas realizadas de la pieza o el objeto elaborado en el dibujo.
+    .col.justify-content-center.align-items-center.mt-5(data-aos="fade-up")
+      figure
+        img(src='@/assets/curso/temas/tema2/info.svg', alt='Texto que describa la imagen')
 
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-secundario.p-5
-            .tarjeta-numerada__numero
-              .h2 2
-            p.text-center Reconocer las acotaciones de cada vista, pues las acotaciones son datos numéricos que permiten entender la proporción de tamaño de la pieza u objeto en el dibujo.
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5
-            .tarjeta-numerada__numero
-              .h2 3
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-botones.p-5
-            .tarjeta-numerada__numero
-              .h2 4
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-    p.mt-3(data-aos="fade-left") Hoy por hoy las herramientas empleadas en el diseño mecánico las representa el software asistido por computador, pues este ha reemplazado a muchos de los instrumentos que se empleaban antiguamente para el dibujo en el puesto de trabajo, haciendo hoy día de la labor de diseño algo más cómodo, rápido y mucho más eficiente, tal como se presenta en la siguiente figura.
+    p.mt-3(data-aos="fade-left") Hoy por hoy las herramientas empleadas en el diseño mecánico las representa el <em>software</em> asistido por computador, pues este ha reemplazado a muchos de los instrumentos que se empleaban antiguamente para el dibujo en el puesto de trabajo, haciendo hoy día de la labor de diseño algo más cómodo, rápido y mucho más eficiente, tal y como se presenta en el siguiente esquema.
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       .tarjeta.tarjeta--gris.p-4
@@ -65,7 +39,7 @@
             .col-md-8.mb-4.mb-md-0.mt-5
               br
               br
-              p Hacia finales de los años 70 y comienzos de los 80, varios sectores de la industria vieron la necesidad de emplear herramientas que permitieran optimizar el diseño a mano del dibujo mecánico, por tal razón varias empresas de la época empezaron a desarrollar sus propios software de dibujo.
+              p Hacia finales de los años 70 y comienzos de los 80, varios sectores de la industria vieron la necesidad de emplear herramientas que permitieran optimizar el diseño a mano del dibujo mecánico, por tal razón varias empresas de la época empezaron a desarrollar sus propios <em>software</em> de dibujo.
 
           .row(titulo="Actualidad")
             .col-md-4
@@ -77,7 +51,7 @@
               br
               p Con la evolución de los computadores y su asequibilidad, las primeras herramientas CAD fueron actualizándose al punto que pasaron de ser simples herramientas de dibujo a herramientas integrales en la gestión del diseño mecánico.
           
-    p.mt-3(data-aos="fade-left") Las herramientas de software CAD, en la actualidad, permiten la creación y el modelamiento de piezas y objetos sólidos en tres dimensiones. Además de gestionar la documentación, analizar y simular situaciones que afecten el desempeño de la pieza mecánica, y de ser capaces de integrarse con otras herramientas de dibujo diferentes al mecánico (electrónico, eléctrico, neumático, entre otras) que permiten la fabricación completa de un producto o sistema completamente terminado. En la figura se puede observar un puesto de trabajo utilizando herramientas CAD.
+    p.mt-3(data-aos="fade-left") Las herramientas de <em>software CAD,</em> en la actualidad, permiten la creación y el modelamiento de piezas y objetos sólidos en tres dimensiones. Además de gestionar la documentación, analizar y simular situaciones que afecten el desempeño de la pieza mecánica, y de ser capaces de integrarse con otras herramientas de dibujo diferentes al mecánico (electrónico, eléctrico, neumático, entre otras) que permiten la fabricación completa de un producto o sistema completamente terminado. En la figura se puede observar un puesto de trabajo utilizando herramientas CAD.
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
@@ -87,7 +61,7 @@
       figure
         img(src='@/assets/curso/temas/tema2/5.svg', alt='Texto que describa la imagen')
 
-    p.mt-5(data-aos="fade-left") Las características que posee un software CAD dependen mucho de su aplicación y de la empresa que lo desarrolle, actualmente el mercado de software asistido por computador ha crecido masivamente y existen un sin número de herramientas CAD que integran una variedad de elementos para una correcta gestión del proceso de diseño mecánico.
+    p.mt-5(data-aos="fade-left") Las características que posee un <em>software CAD</em> dependen mucho de su aplicación y de la empresa que lo desarrolle, actualmente el mercado de software asistido por computador ha crecido masivamente y existen un sin número de herramientas CAD que integran una variedad de elementos para una correcta gestión del proceso de diseño mecánico.
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
@@ -99,8 +73,8 @@
 
     p.mt-5(data-aos="fade-left") <b><em>Software</em> de simulación</b>
 
-    p.mt-3 Existen dos términos muy utilizados dentro de las herramientas de software empleadas en el diseño y fabricación de piezas mecánicas. Por un lado, está el software CAD que, como se ha hecho referencia antes, es un tipo de software empleado en el proceso de diseño de una pieza mecánica que se puede realizar en dos dimensiones (2D), tres dimensiones (3D) o en ambas dimensiones, según sea el caso; y por el otro lado, se encuentra el software CAM que interviene en el proceso de fabricación de la pieza mecánica.
-    p El software CAM, o software de fabricación asistida por computador, es el encargado de traducir el lenguaje gráfico a un lenguaje de coordenadas y parámetros empleados por los controles números (CNC) de los centros de mecanizados y tornos. A continuación, se explican brevemente algunos software de tipo CAD y software tipo CAM empleados en la industria.
+    p.mt-3 Existen dos términos muy utilizados dentro de las herramientas de <em>software</em> empleadas en el diseño y fabricación de piezas mecánicas. Por un lado, está el <em>software CAD</em> que, como se ha hecho referencia antes, es un tipo de <em>software</em> empleado en el proceso de diseño de una pieza mecánica que se puede realizar en dos dimensiones (2D), tres dimensiones (3D) o en ambas dimensiones, según sea el caso; y por el otro lado, se encuentra el <em>software CAM</em> que interviene en el proceso de fabricación de la pieza mecánica.
+    p El <em>software CAM,</em> o <em>software</em> de fabricación asistida por computador, es el encargado de traducir el lenguaje gráfico a un lenguaje de coordenadas y parámetros empleados por los controles números (CNC) de los centros de mecanizados y tornos. A continuación, se explican brevemente algunos <em>software</em> de tipo <em>CAD</em> y <em>software</em> tipo <em>CAM</em> empleados en la industria.
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
@@ -152,7 +126,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               .h2.mb-0 Curso de AutoCAD
-              p.mt-3 Para profundizar en el tema e iniciar en uno de los software más utilizados, se sugiere ver el siguiente video.
+              p.mt-3 Para profundizar en el tema e iniciar en uno de los <em>software</em> más utilizados, se sugiere ver el siguiente video.
             .col-sm-auto
               a.boton.boton--b.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Ver video

@@ -23,7 +23,6 @@
     .col-sm-12.mb-3.col-lg-12.mt-3(data-aos="zoom-in-up")
         figure
           img(src='@/assets/curso/introduccion/2.svg', alt='')
-          figcaption Nota. Tomada de Jensen, Helsel y Short (2004).
 
     p.mt-3(data-aos="fade-left") El dibujo técnico, que es la base para la mayoría de las representaciones gráficas empleadas en las diferentes áreas de las ciencias, utiliza nomenclatura estandarizada que facilita su lectura e interpretación en cualquier parte del mundo.
     
