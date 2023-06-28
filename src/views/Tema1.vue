@@ -51,7 +51,7 @@
     
     figure
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/watch?v=e_zOsXe2UCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/e_zOsXe2UCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
 
     p.mt-3(data-aos="fade-left") Los instrumentos empleados para dibujo técnico se clasifican en tres grupos importantes: de trazado, de medida y anexos o complementarios. 
     
