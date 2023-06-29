@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Modelado y herramientas de diseño.
-        p.mb-4 #[b Objetivo:] Conocer el grado de apropiación de algunos conceptos relevantes en el desarrollo de la temática de modelado y herramientas de diseño que pertenecen al CF11.
+        p.mb-4 #[b Objetivo:] Conocer el grado de apropiación de algunos conceptos relevantes en el desarrollo de la temática de modelado y herramientas de diseño.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

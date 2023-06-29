@@ -30,14 +30,14 @@
         .row.justify-content-center.align-items-up
           .col-md-4.mb-4.mb-md-0
             h4 Ejemplo de un modelado hecho en sólidos y superficies.
-          .col-md-8
+          .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/2.svg', alt='')
 
         .row.justify-content-center.align-items-up
           .col-md-4.mb-4.mb-md-0
             h4 Ejemplo de un modelado en mallas poligonales. Nota. Tomado de Morronal (2009).
-          .col-md-8
+          .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/3.svg', alt='')
 
