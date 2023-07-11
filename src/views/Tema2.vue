@@ -11,7 +11,7 @@
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 15.</b> <i>Proceso de lectura de planos</i>
+        p.titulo.pb-0.mb-0 <b>Figura 13.</b> <i>Proceso de lectura de planos</i>
 
     .col.justify-content-center.align-items-center.mt-5(data-aos="fade-up")
       figure
@@ -55,7 +55,7 @@
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 16.</b> <i>. Puesto de trabajo utilizando herramientas CAD </i>
+        p.titulo.pb-0.mb-0 <b>Figura 14.</b> <i>. Puesto de trabajo utilizando herramientas CAD </i>
     
     .col.justify-content-center.align-items-center.mt-5(data-aos="fade-up")
       figure
@@ -65,7 +65,7 @@
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 17.</b> <i>Caracterísitcas</i>
+        p.titulo.pb-0.mb-0 <b>Figura 15.</b> <i>Caracterísitcas</i>
 
     .col.justify-content-center.align-items-center.mt-5(data-aos="fade-up")
       figure
@@ -78,7 +78,7 @@
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 18.</b> <i>Software CAD, software CAM</i>
+        p.titulo.pb-0.mb-0 <b>Figura 16.</b> <i>Software CAD, software CAM</i>
 
     
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.pt-5

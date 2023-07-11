@@ -10,7 +10,7 @@
 
     .row
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Plano sistema de coordenadas cartesiano tridimensional de la geometría del espacio</i>
+        p.titulo.pb-0.mb-0 <b>Figura 1.</b> <i>Plano sistema de coordenadas cartesiano tridimensional de la geometría del espacio</i>
         
     .row
       .col.lg-12.col-lg-12.mt-3
@@ -23,9 +23,9 @@
     br
     figcaption Nota. Tomado de freepng.es
 
-    p.mt-3(data-aos="fade-left") Esta representación, como se aprecia a continuación, puede estar hecha en sólidos y superficies o en mallas poligonales (Quispe, 2021).
+    p.mt-3(data-aos="fade-left") Esta representación, como se aprecia a continuación, puede estar hecha en sólidos y superficies o en mallas poligonales.
 
-    .tarjeta.tarjeta.color-primario.p-4.mb-5(data-aos="zoom-out-up")
+    .tarjeta.tarjeta.color-gris.p-4.mb-5(data-aos="zoom-out-up")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-up
           .col-md-4.mb-4.mb-md-0
@@ -33,13 +33,15 @@
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/2.svg', alt='')
+              figcaption.text-center Nota. Quispe (2021).
 
         .row.justify-content-center.align-items-up
           .col-md-4.mb-4.mb-md-0
-            h4 Ejemplo de un modelado en mallas poligonales. Nota. Tomado de Morronal (2009).
+            h4 Ejemplo de un modelado en mallas poligonales.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/3.svg', alt='')
+              figcaption.text-center Nota. Tomado de Morronal (2009). 
 
     p.mt-3(data-aos="fade-left") Adicionalmente, el dibujo o modelamiento mecánico se basa en formas geométricas regulares o irregulares elaboradas a partir de rectas y curvas, cálculos matemáticos y mediciones; siendo las mediciones y su correcta aplicación las que determinarán los niveles de presión y el detalle de la pieza mecánica a fabricar. 
 
@@ -59,7 +61,7 @@
       .row(titulo="Instrumentos de trazado (lápices)")
         .col-md-5.justify-content-center.align-items-center.mt-3
           .titulo-sexto.color-acento-contenido.mb-0
-            p.titulo.pb-0.mb-0 <b>Figura 3.</b> <i>Trazos de diferentes lápices empleados en el dibujo técnico</i>
+            p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Trazos de diferentes lápices empleados en el dibujo técnico</i>
           .col.justify-content-center.align-items-center.mt-5
             figure
              img(src='@/assets/curso/temas/tema1/4.svg', alt='Texto que describa la imagen')        
@@ -69,37 +71,37 @@
           p •  Los lápices HB son de dureza media, lo que hace que su trazo sea suave y, por lo general, se utilizan dentro del dibujo para marcar acotaciones y datos.
           p •  Los lápices H son de punta más dura y, por lo tanto, su trazo es mucho más suave que los HB dejando un trazo menos visible en función de lo que se quiera representar dentro del dibujo que, casi siempre, son trazos iniciales de diseño; este tipo de lápices se encuentran desde la H, 2H y hasta el 6H siendo este último el más duro y de trazo más sutil.
           p •  Los lápices tipo B, de punta más suave y de trazado más marcado, se utilizan para definir detalles finales en el dibujo; los hay desde el B, 2B y hasta el 8B siendo el 8B el que tiene el trazo más oscuro.
-          p En la figura 3 se puede observar la relación de trazado del lápiz de acuerdo con su rotulado (Biguri, 2016).
+          p En la figura 2 se puede observar la relación de trazado del lápiz de acuerdo con su rotulado (Biguri, 2016).
       
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Instrumentos de trazado (escuadras)")
         .col-md-5.justify-content-center.align-items-center
           .titulo-sexto.color-acento-contenido.mb-0
-            p.titulo.pb-0.mb-0 <b>Figura 4.</b> <i>Escuadra y cartabón</i>
+            p.titulo.pb-0.mb-0 <b>Figura 3.</b> <i>Escuadra y cartabón</i>
           .col.justify-content-center.align-items-center.mt-5
             figure
              img(src='@/assets/curso/temas/tema1/5.svg', alt='Texto que describa la imagen')        
         .col-md-6.offset-lg-1.mb-4.mb-md-0
-          p Dentro de los instrumentos de trazado se destacan el juego de escuadras que incluye el cartabón los cuales se emplean para trazar líneas rectas a lo largo de los diferentes planos y vistas del dibujo; además del compás que permite la creación de figuras y trazos con geometría curva. En la figura 4 se observa el juego de escuadras empleado en dibujo (Biguri, 2016).
+          p Dentro de los instrumentos de trazado se destacan el juego de escuadras que incluye el cartabón los cuales se emplean para trazar líneas rectas a lo largo de los diferentes planos y vistas del dibujo; además del compás que permite la creación de figuras y trazos con geometría curva. En la figura 3 se observa el juego de escuadras empleado en dibujo (Biguri, 2016).
 
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Instrumentos de medida ")
         .col-md-5.justify-content-center.align-items-center
           .titulo-sexto.color-acento-contenido.mb-0
-            p.titulo.pb-0.mb-0 <b>Figura 5.</b> <i>Instrumentos de medida</i>
+            p.titulo.pb-0.mb-0 <b>Figura 4.</b> <i>Instrumentos de medida</i>
           .col.justify-content-center.align-items-center.mt-5
             figure
              img(src='@/assets/curso/temas/tema1/6.svg', alt='Texto que describa la imagen')        
         .col-md-6.offset-lg-1.mb-4.mb-md-0
-          p Por otra parte, dentro de los instrumentos de medida se destacan las diferentes reglas milimetradas, los escalímetros para medición y elaboración de escalas y el transportador de ángulos (figura 5).
+          p Por otra parte, dentro de los instrumentos de medida se destacan las diferentes reglas milimetradas, los escalímetros para medición y elaboración de escalas y el transportador de ángulos (figura 4).
 
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Instrumentos anexos o complementarios")
         .col-md-5.justify-content-center.align-items-center
           .titulo-sexto.color-acento-contenido.mb-0
-            p.titulo.pb-0.mb-0 <b>Figura 6.</b> <i> Curvígrafos para dibujo técnico</i>
+            p.titulo.pb-0.mb-0 <b>Figura 5.</b> <i> Curvígrafos para dibujo técnico</i>
           .col.justify-content-center.align-items-center.mt-5
             figure
              img(src='@/assets/curso/temas/tema1/7.svg', alt='Texto que describa la imagen')        
         .col-md-6.offset-lg-1.mb-4.mb-md-0
-          p Se utilizan para facilitar el proceso de diseño del dibujo y brindar mejores acabados; se destacan portaminas, borradores, tajalápices, curvígrafos o plantillas Burmester (figura 6).
+          p Se utilizan para facilitar el proceso de diseño del dibujo y brindar mejores acabados; se destacan portaminas, borradores, tajalápices, curvígrafos o plantillas Burmester (figura 5).
     
     ul.lista-ul.mb-3
       li 
@@ -122,7 +124,7 @@
     p.mt-3(data-aos="fade-left") Para realizar un adecuado proceso de acotación es importante tener claros los principios que la rigen, tal como se expone en la siguiente figura.
 
     .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1.mt-5
-      p.titulo.pb-0.mb-0 <b>Figura 7.</b> <i>Principios de acotación</i>
+      p.titulo.pb-0.mb-0 <b>Figura 6.</b> <i>Principios de acotación</i>
     .col.justify-content-center.align-items-center.mt-5
       figure
         img(src='@/assets/curso/temas/tema1/9.svg', alt='Texto que describa la imagen') 
@@ -134,7 +136,7 @@
     p.mt-3(data-aos="fade-left") En el dibujo técnico elaborado a mano se utilizan diferentes tipos de papel como medio de soporte para la realización del mismo. Uno de los más utilizados es el papel opaco blanco de diferentes tamaños que se encuentran normalizados por formatos y cada formato de hoja representa un tamaño que proporciona el espacio o la plantilla para la elaboración del dibujo mecánico.
     
     .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1
-      p.titulo.pb-0.mb-0 <b>Figura 8.</b> <i>Mujer ingeniero arquitecto que trabaja en el moderno programa de CAD.</i>
+      p.titulo.pb-0.mb-0 <b>Figura 7.</b> <i>Mujer ingeniero arquitecto que trabaja en el moderno programa de CAD.</i>
     .col.lg-12.col-lg-12.mt-3
       .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(style="margin-bottom:0px")(
@@ -156,7 +158,7 @@
     p.mt-3(data-aos="fade-left") La serie A es uno de los formatos más extendidos en el tamaño del papel y en las plantillas de diseño e impresión utilizadas en la mayoría de <em>software</em> CAD. Este estándar de formato inicia en el A0 y va hasta el A8, cada formato de mayor orden representa la mitad del tamaño del formato inmediatamente anterior; es decir, el formato A8 es la mitad del tamaño del formato A7. En la siguiente tabla se puede observar las dimensiones en milímetros de cada formato y en la figura se puede observar la relación en tamaño de cada uno.
 
     .titulo-sexto.color-acento-contenido.mb-3.offset-lg-1
-        p.titulo.pb-0.mb-0 <b>Tabla 1.</b> <i>Dimensiones en milímetros de los diferentes formatos de la serie A</i>
+        p.titulo.pb-0.mb-0 <b>Tabla 2.</b> <i>Dimensiones en milímetros de los diferentes formatos de la serie A</i>
 
     .tabla-a.color-acento-contenido.mb-5.col-lg-10.offset-lg-1.mt-5
       table
@@ -192,7 +194,7 @@
             th 148
 
     .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1
-      p.titulo.pb-0.mb-0 <b>Figura 9.</b> <i>Relación de tamaños de los diferentes formatos de la serie A</i>
+      p.titulo.pb-0.mb-0 <b>Figura 8.</b> <i>Relación de tamaños de los diferentes formatos de la serie A</i>
     .col.justify-content-center.align-items-center.mt-5
       figure
         img(src='@/assets/curso/temas/tema1/12.svg', alt='Texto que describa la imagen')
@@ -201,10 +203,10 @@
       li 
         i.lista-ul__vineta
         | #[strong Unidades de medida e instrumentos básicos ]
-    p.mt-3(data-aos="fade-left") El empleo del sistema internacional de unidades métrico, y en algunas ocasiones el sistema inglés, permite que la interpretación y lectura del dibujo mecánico sea universal. Para las unidades de longitud en el sistema internacional de unidades se emplea el metro junto con sus prefijos expresados en potencias de 10 (tabla 2), mientras que, en el sistema inglés, otro sistema muy comúnmente empleado sobre todo para expresar diámetros, la unidad que se emplea es la pulgada (in); una pulgada equivale a 2,5 centímetros.
+    p.mt-3(data-aos="fade-left") El empleo del sistema internacional de unidades métrico, y en algunas ocasiones el sistema inglés, permite que la interpretación y lectura del dibujo mecánico sea universal. Para las unidades de longitud en el sistema internacional de unidades se emplea el metro junto con sus prefijos expresados en potencias de 10 (tabla 3), mientras que, en el sistema inglés, otro sistema muy comúnmente empleado sobre todo para expresar diámetros, la unidad que se emplea es la pulgada (in); una pulgada equivale a 2,5 centímetros.
 
     .titulo-sexto.color-acento-contenido.mb-3.offset-lg-1(data-aos="fade-up")
-      p.titulo.pb-0.mb-0 <b>Tabla 2.</b> <i>Dimensiones en milímetros de los diferentes formatos de la serie A</i>
+      p.titulo.pb-0.mb-0 <b>Tabla 3.</b> <i>Dimensiones en milímetros de los diferentes formatos de la serie A</i>
     .col.justify-content-center.align-items-center.mt-5
       figure
         img(src='@/assets/curso/temas/tema1/13.svg', alt='Texto que describa la imagen') 
@@ -216,7 +218,7 @@
     p.mt-5(data-aos="fade-left") Para ejemplificar se puede tomar la siguiente situación: se requiere que el chasis de un equipo tenga postes de sujeción para las tarjetas electrónicas espaciados entre sí 4,5 cm formando un cuadrado perfecto entre los postes, durante el proceso de fabricación, en la comprobación de las medidas, arrojó como resultado que los postes quedaron con un espaciado de 5 cm imposibilitando un correcto ensamble de las tarjetas electrónicas en los postes ubicados dentro del chasis del equipo. 
 
     .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1.mt-5(data-aos="fade-left")
-      p.titulo.pb-0.mb-0 <b>Figura 11.</b> <i>Diseño de mecánico establecido</i>
+      p.titulo.pb-0.mb-0 <b>Figura 10.</b> <i>Diseño de mecánico establecido</i>
     .col.justify-content-center.align-items-center.mt-5(data-aos="fade-left")
       figure
         img(src='@/assets/curso/temas/tema1/15.png', alt='Texto que describa la imagen') 
@@ -228,19 +230,19 @@
       .row(titulo="Regla milimetrada")
         .col-md-5.justify-content-center.align-items-center.mt-3
           .titulo-sexto.color-acento-contenido.mb-0
-            p.titulo.pb-0.mb-0 <b>Figura 12.</b> <i>Regla milimetrada</i>
+            p.titulo.pb-0.mb-0 <b>Figura 11.</b> <i>Regla milimetrada</i>
           .col.justify-content-center.align-items-center.mt-5
             figure
              img(src='@/assets/curso/temas/tema1/16.svg', alt='Texto que describa la imagen')        
           
         .col-md-6.offset-lg-1
           p La regla milimetrada se emplea para efectuar mediciones de longitud. Se caracteriza por estar fabricada en plástico, metal o madera o materiales generalmente rígidos, es alargada y su tamaño varía en función de las necesidades de medición.
-          p Por una de las caras de la regla se tiene un patrón de rayas largas numeradas consecutivamente (0, 1, 2, 3, 4 …) que representan los centímetros, mientras que los milímetros se representan con un patrón de rayas cortas ubicadas en cantidades de 10 entre las rayas más largas o los centímetros (figura 12).
+          p Por una de las caras de la regla se tiene un patrón de rayas largas numeradas consecutivamente (0, 1, 2, 3, 4 …) que representan los centímetros, mientras que los milímetros se representan con un patrón de rayas cortas ubicadas en cantidades de 10 entre las rayas más largas o los centímetros (figura 11).
 
       .row.justify-content-center.align-items-center.my-lg-4(titulo="Escalímetro")
         .col-md-5.justify-content-center.align-items-center
           .titulo-sexto.color-acento-contenido.mb-0
-            p.titulo.pb-0.mb-0 <b>Figura 13.</b> <i>Escalas de un dibujo</i>
+            p.titulo.pb-0.mb-0 <b>Figura 12.</b> <i>Escalas de un dibujo</i>
           .col.justify-content-center.align-items-center.mt-5
             figure
              img(src='@/assets/curso/temas/tema1/17.svg', alt='Texto que describa la imagen')        
@@ -256,8 +258,8 @@
         .col-md-6.offset-lg-1.mb-4.mb-md-0
           p El transportador de ángulos es un instrumento empleado en la medición y creación de ángulos en el dibujo. Se caracteriza por estar fabricado en plástico transparente, metal o madera en forma de círculo (360 grados) o semicírculo (180 grados).
 
-    #t_1_1.titulo-segundo.mt-2.color-acento-contenido(data-aos="zoom-out-left")
-      h2 1.2  Bocetos y métodos de interpretación de planos
+    #t_1_2.titulo-segundo.mt-2.color-acento-contenido(data-aos="zoom-out-left")
+      h2 1.2  Métodos de interpretación de planos
 
     p.mt-2(data-aos="fade-left") Los bocetos, también conocidos como bosquejos, son las fases preliminares para el diseño y la creación de un dibujo, el cual por lo general se realiza a mano sin la necesidad de un instrumento de medida.
 

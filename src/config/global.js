@@ -108,14 +108,22 @@ export default {
       referencia:
         'Jensen, C. H., Helsel, J. D., y Short, D. R. (2012). Dibujo y diseño en ingeniería. McGraw-Hill.',
       tipo: 'Libro',
-      descarga: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=289',
+      link:
+        'https://www.academia.edu/32691787/Dibujo_y_Diseno_en_Ingenieria_Edicion_6_jensen_helsel',
     },
     {
       tema: 'Diseño y desarrollo de productos',
       referencia:
         'Ulrich, K. T., y Eppinger, S. D. (2013). Diseño y desarrollo de productos. McGraw-Hil.',
       tipo: 'Libro',
-      descarga: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=281',
+      link:
+        'https://disenoing.files.wordpress.com/2016/10/diseno_y_desarrollo_de_productos_5ed_-_k.pdf',
+    },
+    {
+      tema: 'AutoCAD',
+      referencia: 'Yoney Gallardo. (2018). Curso de autocad. [Video]. YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://youtu.be/71vdtOJN4Sw',
     },
   ],
   glosario: [
@@ -147,29 +155,29 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'Biguri, I. (2016). <em>Instrumentos de dibujo.</em> Dibujo Técnico.',
+      referencia: 'Biguri, I. (2016). Instrumentos de dibujo. Dibujo Técnico.',
       link: 'https://ibiguridt.wordpress.com/temas/materiales/',
     },
     {
-      referencia: '3DMX. (s.f.). <em>¿Qué es el modelado 3D?</em>',
+      referencia: '3DMX. (s.f.). <em>¿Qué es el Modelado Mecánico?</em>',
       link:
         'https://www.3d-mx.com/single-post/2019/09/08/-qu%C3%A9-es-el-modelado-mec%C3%A1nico?lang=es',
     },
     {
       referencia:
-        'Jensen, C. H., Helsel, J. D., y Short, D. R. (2004). <em>Dibujo y diseño en ingeniería.</em> McGraw-Hill',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=289',
+        'Jensen, C. H., Helsel, J. D., y Short, D. R. (2004). Dibujo y diseño en ingeniería. McGraw-Hill.',
+      link:
+        'https://www.academia.edu/32691787/Dibujo_y_Diseno_en_Ingenieria_Edicion_6_jensen_helsel',
     },
     {
       referencia:
-        'Lieu, D. K., y Sorby, S. (2018). <em>Dibujo para diseño de ingeniería.</em> Cengage Learning',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6903',
+        'Ulrich, K. T., y Eppinger, S. D. (2013). Diseño y desarrollo de productos. McGraw-Hill.',
+      link:
+        'https://disenoing.files.wordpress.com/2016/10/diseno_y_desarrollo_de_productos_5ed_-_k.pdf',
     },
     {
-      referencia:
-        'Ulrich, K. T., y Eppinger, S. D. (2013). <em>Diseño y desarrollo de productos.</em> McGraw-Hill',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=281',
+      referencia: 'Yoney Gallardo. (2018). Curso de autocad. [Video]. YouTube.',
+      link: 'https://youtu.be/71vdtOJN4Sw',
     },
   ],
   creditos: [

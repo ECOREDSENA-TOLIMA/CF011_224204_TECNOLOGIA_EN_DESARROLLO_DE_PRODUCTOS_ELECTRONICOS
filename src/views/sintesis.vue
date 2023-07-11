@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p A continuación, se describe el tema principal del Componente Formativo Modelado y herramientas de diseño indicando los aspectos en el desarrollo de productos electrónicos, utilizando el modelamiento mecánico, el cual permite materializar el concepto del producto inicial, para darle un acabo físico y estético que sea funcional y a la vez visualmente atractivo. Por tal razón se requiere de una elevada precisión y una notable optimización del tiempo y los recursos invertidos en el proceso fundamentados en la organización y las etapas
+    p.mb-5 A continuación, se describe el tema principal del componente formativo modelado y herramientas de diseño indicando los aspectos en el desarrollo de productos electrónicos, utilizando el modelamiento mecánico, el cual permite materializar el concepto del producto inicial, para darle un acabo físico y estético que sea funcional y a la vez visualmente atractivo. Por tal razón se requiere de una elevada precisión y una notable optimización del tiempo y los recursos invertidos en el proceso fundamentados en la organización y las etapas.
 
     .row.justify-content-center
       .col-lg-10.mb-5

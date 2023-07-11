@@ -19,10 +19,11 @@
 
     .row
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 1.</b> <i>Ejemplo de dibujos empleados en diferentes áreas</i>
+        p.titulo.pb-0.mb-0 <b>Tabla 1.</b> <i>Ejemplo de dibujos empleados en diferentes áreas</i>
     .col-sm-12.mb-3.col-lg-12.mt-3(data-aos="zoom-in-up")
         figure
           img(src='@/assets/curso/introduccion/2.svg', alt='')
+          figcaption.text-center Nota. Tomada de Jensen, Helsel y Short (2004).
 
     p.mt-3(data-aos="fade-left") El dibujo técnico, que es la base para la mayoría de las representaciones gráficas empleadas en las diferentes áreas de las ciencias, utiliza nomenclatura estandarizada que facilita su lectura e interpretación en cualquier parte del mundo.
     
