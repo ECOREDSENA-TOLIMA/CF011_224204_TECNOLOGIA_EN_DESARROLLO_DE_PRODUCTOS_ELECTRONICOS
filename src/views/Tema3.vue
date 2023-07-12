@@ -18,7 +18,7 @@
 
     .row.mt-5
       .titulo-sexto.color-acento-contenido.mb-0.offset-lg-1(data-aos="fade-left")
-        p.titulo.pb-0.mb-0 <b>Figura 17.</b> <i>Planos</i>
+        p.titulo.pb-0.mb-0 <b>Figura 18.</b> <i>Planos</i>
 
     .col.justify-content-center.align-items-center.mt-5(data-aos="fade-up")
       figure
