@@ -81,7 +81,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_11_224204.pdf',
+        download: 'downloads/CFA_011_224204.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -96,13 +96,6 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: 'Dibujo para diseño de ingeniería',
-      referencia:
-        'Lieu, D. K., y Sorby, S. (2018). Dibujo para diseño de ingeniería. Cengage Learning.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=6903',
-    },
     {
       tema: 'Dibujo y diseño en ingeniería',
       referencia:
